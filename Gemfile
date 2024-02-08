@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gemspec
 
 if RUBY_VERSION < "3"
-  gem "minitest", ">= 5.15.0", "< 5.16"
+  gem "minitest", ">= 5.15.0", "< 5.22.3"
 else
   gem "minitest", ">= 5.15.0"
 end
