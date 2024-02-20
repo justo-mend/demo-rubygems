@@ -16,7 +16,7 @@ gem "sprockets-rails", ">= 2.0.0"
 gem "propshaft", ">= 0.1.7"
 gem "capybara", ">= 3.39"
 if RUBY_VERSION < "3"
-  gem "selenium-webdriver", "<= 4.9.0"
+  gem "selenium-webdriver", "<= 4.18.1"
   gem "webdrivers"
 else
   gem "selenium-webdriver", ">= 4.11.0"
